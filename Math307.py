@@ -1,5 +1,5 @@
-import igraph
-##from igraph import plot
+from igraph import *
+from igraph import plot
 g = Graph()
 g.add_vertices(7)
 g.vs["name"] = ["Charleston", "Atlanta", "North Carolina", "Virgina", "Pennsylvania", "Michigan", "New York"]
